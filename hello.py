@@ -1,5 +1,5 @@
-def hello() -> None:
-    print("hello world")
+def hello(name: str = "Julian") -> None:
+    print(f"hello {name}")
 
 
 if __name__ == "__main__":
